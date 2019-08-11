@@ -1,0 +1,213 @@
+header {
+    width: 100%;
+    height: 20%;
+    background-image:url(images/bg-color.png);
+    margin: 0 auto; 
+}
+
+.div1 {
+    width: 300px;
+    height: 98px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color:whitesmoke;
+}
+
+.logo {
+    width:10%;
+    height: 30px;
+    background-image: url(images/1block.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-left: 25%;
+    float: left;
+   }
+
+.logoname {
+    height: 25px;
+    margin-left: 40%;
+    margin-top: -20px;
+    text-transform: uppercase;
+    font-size:x-small;
+    float: left;
+}
+
+.div2 {
+    width: 500px;
+    height: 198px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.div2 p {
+    color:whitesmoke;
+    text-transform: uppercase; 
+}
+
+.div2 p:last-of-type {
+    font-size: large;
+    font-weight: bold; 
+}
+
+input {
+    width: 150px;
+    height:30px;
+    background-color: white;
+    border: none;
+    font-size: x-small;
+}
+
+section {
+    width: 100%;
+    height: 1100px;
+    margin: 0 auto;
+}
+
+section p {
+    text-align: center;
+}
+
+.main {
+    width: 70%;
+    height: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.main div {
+    width: 24%;
+    height: 20%;
+    float: left;
+    margin-left: 1%;
+}
+
+
+.main .div3 {
+    width: 70%;
+    height: 22%;
+    margin-left: 15%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.main .div3 h4 {
+    text-transform: uppercase;
+}
+
+.main .div3 input {
+    width: 40%;
+    height: 20%;
+    background-color: mediumblue;
+    color: white;
+    margin-top: 3%;
+}
+
+
+.main p:first-child {
+    text-transform: uppercase;
+    font-size: x-large;
+    margin-top: 40px;
+    letter-spacing: 3px;
+
+}
+
+.main div p:nth-child(2) {
+    font-variant: small-caps;
+    
+}
+
+.p1 {
+    font-size: smaller;
+}
+
+#h1 {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;  
+}
+
+#image {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    margin: 0;
+}
+
+#image img {
+    width: 50%;
+    height: 100%;
+    
+}  
+
+#logo1 {
+    height: 30px;
+    background-image: url(images/1block.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 20px;
+}
+
+#logo2 {
+    height: 40px;
+    background-image: url(images/2responsive.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 10px;
+}
+
+#logo3 {
+    height: 50px;
+    background-image: url(images/3laptop.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 0;
+}
+
+#logo4 {
+    height: 50px;
+    background-image: url(images/4computer.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 0;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color:mediumblue;
+    color: white;
+    text-align: center;
+}
+
+footer div {
+    width: 100%;
+    height: 150px;
+}
+
+footer p {
+    margin: 0 auto;
+    font-size: small;
+    display: block;
+    padding-top: 65px;
+}
+
+footer span {
+    text-transform: uppercase;
+}
